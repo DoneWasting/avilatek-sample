@@ -1,0 +1,57 @@
+.product {
+    width: 200px;
+    padding: 16px;
+    text-align: center;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    margin: 10px;
+    box-sizing: border-box;
+    
+    display: inline-block;
+}
+
+.product:hover,
+.product:active {
+    background-color: #C0DDF5;
+}
+
+.product a {
+    text-decoration: none;
+    color: #1aa6b7;
+}
+
+.product button {
+    background-color: #ff414d;
+    color:#ffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0.55rem 1rem;
+    display: inline-block;
+    border-radius: 8rem;
+    transition: all .2s;
+    position: relative;
+    font-size: 0.8rem;
+
+   
+    border: none;
+    cursor: pointer;
+}
+
+.product a:visited,
+.product a:active {
+    text-decoration: none;
+    color: #1aa6b7;
+}
+
+.product h4 {
+    color:#1aa6b7;
+}
+
+.product h5 {
+    color:#ff414d;
+}
+
+.Author {
+    margin: 16px 0;
+    color: #1aa6b7;
+}
