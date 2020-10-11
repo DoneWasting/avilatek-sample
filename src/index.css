@@ -3,3 +3,41 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+input[type=text] {
+  padding:10px;
+  border:0;
+  margin:0 10px;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  border-radius:10px;
+}
+
+
+input[type=password] {
+  padding:10px;
+  border:0;
+  margin:0px 10px;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  border-radius:10px;
+}
+
+input[type=submit] {
+  background-color: #1aa6b7;
+  color:#ffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.55rem 1rem;
+  display: inline-block;
+  border-radius: 8rem;
+  transition: all .2s;
+  position: relative;
+  font-size: 0.8rem;
+
+ 
+  border: none;
+  cursor: pointer;
+}
