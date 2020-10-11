@@ -1,4 +1,5 @@
 import React from 'react';
+import excelImg from '../../imgs/excel-show.png'
 
 const AddProduct = () => {
     return (
@@ -18,6 +19,7 @@ const AddProduct = () => {
             </form>
 
   <h4>Add many products : Upload a excel file</h4> 
+  <img src={excelImg}></img>
  
 <form action="http://localhost:4000:/products/addMany" method="POST" encType="multipart/form-data">
     <div >
